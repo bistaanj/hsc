@@ -59,12 +59,14 @@
 .vas-ind{
     margin: 10px 15px;
     width: 360px;
-    height: 59vh;
+    min-height: 56vh;
+    max-height:max-content ;
+
     display: flex;
     flex-direction: column-reverse;
     background-color: white;
     border-radius: 5px;    
-    box-shadow: 1px 1px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     justify-content: flex-end;
 
 }
@@ -72,7 +74,7 @@
     display: flex;    
     flex-direction: column;    
     width: 90%;
-    margin: 2px auto;
+    margin: 1px auto;
     
    
     
@@ -108,5 +110,80 @@
 .vas-ind-right > img{
     width:150px;
     height: 150px;
+}
 
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 80vh;
+    
+}
+.map-heading{
+    font-size: 1.5em;
+    background-color: #165f82;
+    color: white;
+    width: fit-content;
+    display: flex;
+    margin: 0px auto;
+    height: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.map-intro{
+    text-align: center;    
+}
+
+.map-image{
+    display: flex;
+    margin: auto;
+    border: 0;
+   
+}
+.map-image> img{
+    margin: auto;
+    width: 80%;
+    height: 70vh;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.rec-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: max-content;
+}
+.rec-heading {
+    font-size: 1.5em;
+    background-color: #165f82;
+    color: white;
+    width: fit-content;
+    display: flex;
+    margin: 5px auto;
+    height: max-content;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.rec-intro {
+    text-align: center;
+}
+
+.rec-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    border: 0;
+    background-color: #fbf5f5;
+    width: 80%;
+    justify-content: center;
+}
+.rec-card{
+    display: flex; 
+    margin: 10px 10px;   
+    
 }
