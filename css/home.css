@@ -1,0 +1,104 @@
+.carousel-item .overlay {
+    position: relative;
+}
+
+.carousel-item .overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+.carousel-item .overlay img {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-item .carousel-caption {
+    position: absolute;
+    z-index: 2;
+}
+
+.fb-moto-txt{
+    color: #165f82;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.fb-intro-container{
+    background-color: #165f82;
+    min-height: 25vh;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.display-flex{
+    display: flex;
+}
+
+.fb-intro-txt {
+    margin: auto;
+    padding: 3px;
+    color: white;
+    font-size: 1.2em;    
+}
+.vas-ind-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #f9eeee;
+
+}
+.vas-ind{
+    margin: 10px;
+    width: 50%;
+    min-height: 40vh;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.vas-ind-left{
+    display: flex;
+    
+    flex-direction: column;
+    flex-basis: 65%;
+    margin: auto;
+}
+.vas-left-head{
+    display: flex;
+    
+}
+.vas-left-head-text{
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 20vw;
+    min-width: max-content;
+    margin: auto;
+    border-radius: 5px;
+}
+.vas-left-text{
+    margin: 15px;
+}
+
+.vas-ind-right{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.vas-ind-right > img{
+    width: 80%;
+    height: 80%;
+
+}
