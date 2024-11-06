@@ -49,31 +49,37 @@
 }
 .vas-ind-container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: #f9eeee;
+    background-color: #fbf5f5;
 
 }
 .vas-ind{
-    margin: 10px;
-    width: 50%;
-    min-height: 40vh;
+    margin: 10px 15px;
+    width: 360px;
+    height: 59vh;
     display: flex;
+    flex-direction: column-reverse;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 5px;    
+    box-shadow: 1px 1px #888888;
+    justify-content: flex-end;
 
 }
 .vas-ind-left{
-    display: flex;
+    display: flex;    
+    flex-direction: column;    
+    width: 90%;
+    margin: 2px auto;
     
-    flex-direction: column;
-    flex-basis: 65%;
-    margin: auto;
+   
+    
 }
 .vas-left-head{
     display: flex;
+    
     
 }
 .vas-left-head-text{
@@ -82,13 +88,14 @@
     font-weight: bold;
     padding: 5px;
     text-align: center;
-    width: 20vw;
+    width: 80%;
     min-width: max-content;
     margin: auto;
     border-radius: 5px;
 }
 .vas-left-text{
     margin: 15px;
+    text-align: justify;
 }
 
 .vas-ind-right{
@@ -96,9 +103,10 @@
     display: flex;
     justify-content: center;
     
+    
 }
 .vas-ind-right > img{
-    width: 80%;
-    height: 80%;
+    width:150px;
+    height: 150px;
 
 }
