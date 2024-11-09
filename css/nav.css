@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #155f82;
+    width: 90%;  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nav-margin-top{
+   
+    width: 90%;
+    height: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.nav-margin-buttom {
+    background-color: red;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    color: red;
+}
+.nav-custom{
+    display:flex;
+
+}
+.nav-brand{
+    justify-content: flex-start;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.active{
+    color: red !important;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.navbar-collapse{
+    margin: auto;
+    justify-content: center;
+
+}
+.nav-item{
+    margin: 2px 25px;
+    color: white !important;
+}

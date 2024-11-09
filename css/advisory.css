@@ -1,12 +1,11 @@
 .ad-container{
     display: flex;
     width: 80%;
-    height: max-content;
     flex-direction: column;
     margin: auto;
-    background-color: #f5f5f5;
-    
+    background-color: #f5f5f5;    
 }
+
 .ad-ind{
     display: flex;
     margin: 15px auto;
