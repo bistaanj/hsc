@@ -1,0 +1,105 @@
+.ab-main{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+}
+.ab-fubon{
+    display: flex;
+}
+.ab-fubon-para{
+    width: 60%;
+    background-color: red;
+}
+
+.ab-team{
+    width: 60%;
+    margin: auto;
+}
+.ab-team-para{
+    text-align: justify;
+}
+
+.ab-team-ind{
+    width: 95%;
+    background-color: red;
+    margin: auto;
+}
+.abti-intro{
+    width: 50%;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+.abti-content{
+    display: flex;
+    width: 95%;
+    background-color: pink;
+    margin: auto;
+}
+.abti-content-text {
+    flex-basis: 60%;
+    margin: auto;
+    background-color: aqua;
+}
+.abti-content-image{
+    background-color: grey;
+    flex-basis:35% ;
+    margin: auto;
+}
+
+/* Big Screens */
+@media screen and (min-width: 1200px) {
+    .ab-main{
+        max-width: 85%;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+    }
+}
+
+/* Medium screens aka tablets */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .ab-main{
+        max-width:1000px;
+    }
+
+    
+}
+/* Small Screens aka phone */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .ab-main{
+        max-width: 540px;
+    }
+
+    .hero-text {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        padding: 15px;
+    }
+}
+/* Very small phones */
+@media screen and (max-width: 575px) {
+    .ab-main{
+        max-width: 100%;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    .tagline {
+        font-size: 0.9rem;
+    }
+}
