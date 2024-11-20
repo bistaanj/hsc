@@ -5,13 +5,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: blue;
+    background-color: #f9cccc;
 }
 .ab-fubon{
     display: flex;
 }
+.ab-fubon-text {
+    width: 50%;
+    margin: auto;
+}
+.ab-fubon-image{
+    width: 40%;
+    margin: auto;
+    background-color: blueviolet;
+}
 .ab-fubon-para{
-    width: 60%;
+    width: 100%;
     background-color: red;
 }
 
@@ -26,7 +35,7 @@
 .ab-team-ind{
     width: 95%;
     background-color: red;
-    margin: auto;
+    margin: 10px auto;
 }
 .abti-intro{
     width: 50%;
@@ -67,6 +76,12 @@
     .ab-main{
         max-width:1000px;
     }
+    .abti-content{
+        flex-direction: column-reverse;
+    }
+    .ab-fubon{
+        flex-direction: column-reverse;
+    }
 
     
 }
@@ -76,12 +91,11 @@
         max-width: 540px;
     }
 
-    .hero-text {
-        font-size: 1.2rem;
+    .abti-content {
+        flex-direction: column-reverse;
     }
-
-    .section {
-        padding: 15px;
+    .ab-fubon {
+        flex-direction: column-reverse;
     }
 }
 /* Very small phones */
@@ -90,16 +104,10 @@
         max-width: 100%;
     }
 
-    .hero-text {
-        font-size: 1rem;
-        text-align: center;
+    .abti-content {
+        flex-direction: column-reverse;
     }
-
-    .section {
-        padding: 10px;
-    }
-
-    .tagline {
-        font-size: 0.9rem;
+    .ab-fubon {
+        flex-direction: column-reverse;
     }
 }
