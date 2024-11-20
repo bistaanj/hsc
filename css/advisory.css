@@ -24,6 +24,27 @@
     font-size: 1.1em;
     
 }
+.ind-img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ind-img-container{
+    width: 50%;
+    height: 50%;
+}
+
+.ind-img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+
+}
+
 .text-head{
     font-size: 1.5em;
     text-align: center;

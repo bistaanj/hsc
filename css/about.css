@@ -103,6 +103,12 @@
     .ab-main{
         max-width: 100%;
     }
+    .ab-fubon-text{
+        width: 95%;
+    }
+    .ab-team{
+        width: 95%;
+    }
 
     .abti-content {
         flex-direction: column-reverse;
