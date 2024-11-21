@@ -5,22 +5,8 @@
     display: flex;
     flex-direction: column;
 }
-.nav-margin-top{
-   
-    width: 90%;
-    height: 5px;
-    position: fixed;
-    top: 0;
-    z-index: 3;
-}
-.nav-margin-buttom {
-    background-color: red;
-    width: 100%;
-    height: 5px;
-    margin-bottom: 0;
-    padding: 0;
-    color: red;
-}
+
+
 .nav-custom{
     display:flex;
 
@@ -53,4 +39,14 @@ nav .nav-link{
 .nav-item{
     margin: 2px 25px;
     color: white !important;
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .navbar{
+        width: 100%;
+        margin-top: 0;
+    }
 }

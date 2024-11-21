@@ -1,3 +1,10 @@
+.carousel-container {
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+
+
 .carousel-item .overlay {
     position: relative;
 }
@@ -230,5 +237,37 @@ footer .nav-link{
     .r-card{
         margin: 1px;
     }
+    .carousel-custom{
+        width: 100%;
+    }
+    .carousel-container{
+        width: 100%;
+    }
+    .r-card {
+        width: 80%;
+        height: fit-content;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px auto;
+
+    }
+    .rec-card-container{
+        padding: 5px;
+    }
+    .carousel-indicators button{
+        display: none;
+    }
+    .carousel-caption {
+        display: block !important;
+        font-size: 14px;                
+        bottom: 20px;                
+        text-align: center;               
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    
 
 }
