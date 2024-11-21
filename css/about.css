@@ -1,7 +1,7 @@
 .ab-main{
     width: 90%;
     height: max-content;
-    margin: auto;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,6 +115,15 @@
     .ab-fubon{
         flex-direction: column-reverse;
     }
+    .ab-fubon-text {
+        width: 90%;
+        margin: auto;
+    }
+    .ab-fubon-image {
+        width: 90%;
+        margin: 10px auto;
+
+    }
 
     
 }
@@ -147,6 +156,17 @@
     }
     .abti-intro {
         width: 80%;
+    }
+    .ab-fubon-text {
+        width: 90%;
+        margin: auto;
+    }
+    .ab-team{
+        width: 90%;
+    }
+    .ab-fubon-image {
+        width: 90%;
+        margin: 10px auto;
     }
 }
 /* Very small phones */
@@ -187,5 +207,15 @@
    }
     .ab-fubon {
         flex-direction: column-reverse;
+    }
+    .ab-fubon-text {
+        width: 90%;
+        margin: auto;
+    }
+    .ab-team {
+        width: 90%;
+    }
+    .ab-fubon-image{
+        width: 90%;
     }
 }
