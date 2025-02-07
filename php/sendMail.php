@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['submit'])) {
     // Send email and check for success
     if (mail($mailingAddress, $subject, $emailTxt, $headers)) {
         // Redirect to another page after success
-        header("Location: ../html/index.html");
+        header("Location: ../index.html");
         exit;
     } else {
         echo "Failed to send email. Please try again later.";

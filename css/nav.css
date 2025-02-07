@@ -52,7 +52,9 @@ nav .nav-link{
     width: fit-content;
 }
 
-
+.nav-img-wd{
+    width: 80%;
+}
 
 @media screen and (max-width: 767px){
 
