@@ -54,6 +54,7 @@ nav .nav-link{
 
 .nav-img-wd{
     width: 80%;
+    background-color: none;
 }
 
 @media screen and (max-width: 767px){
