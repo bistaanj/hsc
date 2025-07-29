@@ -16,7 +16,7 @@ The Fubon Mining website was created to serve as a clean and professional digita
 
 - **HTML5**
 - **CSS3**
-- **JavaScript**
+- **PHP**
 - **Bootstrap 5**
 - **Font Awesome** (icons)
 
